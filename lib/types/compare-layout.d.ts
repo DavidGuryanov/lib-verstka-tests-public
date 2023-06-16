@@ -4,6 +4,7 @@ export interface Options {
     browserOptions: BrowserOptions;
     fullPage?: boolean;
     canonicalImage?: string;
+    outputImage?: string;
     reqPercentage?: number;
 }
 type BeforeScreenshotHandler = (page: Page) => Promise<void>;
