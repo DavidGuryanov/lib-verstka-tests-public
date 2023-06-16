@@ -4,6 +4,7 @@ export interface Options {
     browserOptions: BrowserOptions;
     fullPage?: boolean;
     canonicalImage?: string;
+    pageImage?: string;
     outputImage?: string;
     reqPercentage?: number;
 }
