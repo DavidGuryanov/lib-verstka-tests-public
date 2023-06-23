@@ -1,5 +1,5 @@
-import { Browser, Page, Viewport } from 'puppeteer';
-export interface Options {
+import { Browser, Page, Viewport, PuppeteerLaunchOptions } from 'puppeteer';
+export interface Options extends PuppeteerLaunchOptions {
     viewport?: Viewport;
 }
 export interface LaunchResult {
