@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.extraFonts = exports.orderStyles = exports.horizontalScroll = exports.titleEmmet = exports.lang = exports.stylelint = exports.compareLayout = exports.w3c = exports.structure = exports.hasElementBySelectors = exports.launchBrowser = exports.mkdir = exports.mkfile = exports.runTests = void 0;
+exports.extraFonts = exports.orderStyles = exports.horizontalScroll = exports.titleEmmet = exports.lang = exports.stylelint = exports.compareLayout = exports.w3c = exports.structure = exports.getStyles = exports.getStyle = exports.hasElementBySelectors = exports.launchBrowser = exports.mkdir = exports.mkfile = exports.runTests = void 0;
 var run_tests_1 = require("./lib/run-tests");
 Object.defineProperty(exports, "runTests", { enumerable: true, get: function () { return run_tests_1.runTests; } });
 var immutable_fs_trees_1 = require("./lib/utils/immutable-fs-trees");
@@ -9,6 +9,8 @@ Object.defineProperty(exports, "mkdir", { enumerable: true, get: function () { r
 var puppeteer_1 = require("./lib/utils/puppeteer");
 Object.defineProperty(exports, "launchBrowser", { enumerable: true, get: function () { return puppeteer_1.launchBrowser; } });
 Object.defineProperty(exports, "hasElementBySelectors", { enumerable: true, get: function () { return puppeteer_1.hasElementBySelectors; } });
+Object.defineProperty(exports, "getStyle", { enumerable: true, get: function () { return puppeteer_1.getStyle; } });
+Object.defineProperty(exports, "getStyles", { enumerable: true, get: function () { return puppeteer_1.getStyles; } });
 var structure_1 = require("./lib/structure");
 Object.defineProperty(exports, "structure", { enumerable: true, get: function () { return structure_1.structure; } });
 var w3c_1 = require("./lib/w3c");
