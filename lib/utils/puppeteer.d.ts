@@ -5,5 +5,5 @@ declare const getStyle: (page: Page, selectors: string, properties: string[]) =>
 declare const getStyles: (page: Page, selectors: string, properties: string[]) => Promise<never[] | {
     [k: string]: string;
 }>;
-declare const launchBrowser: (htmlPath: string, options?: Options) => Promise<LaunchResult>;
+declare const launchBrowser: (url: string, options?: Options) => Promise<LaunchResult>;
 export { hasElementBySelectors, getStyle, getStyles, launchBrowser, };
